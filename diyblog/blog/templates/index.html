@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>DIY BLOG HOME</h1>
+  <p>Welcome to DIYBLOG, a website developed by <em>Subhankar Halder</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The DIYBLOG has the following record counts:</p>
+  <ul>
+    <li><strong>Blog Posts:</strong> {{ num_blogs}}</li>
+    <li><strong>Blog Authors:</strong> {{ num_authors}}</li>
+  </ul>
+{% endblock %}
